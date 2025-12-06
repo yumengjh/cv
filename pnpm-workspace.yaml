@@ -1,0 +1,24 @@
+catalogs:
+  framework:
+    nuxt: ^4.2.0
+    sass-embedded: ^1.93.3
+    vue: ^3.5.22
+    vue-router: ^4.6.3
+  quality:
+    '@antfu/eslint-config': ^6.2.0
+    '@zinkawaii/stylelint-config': ^0.3.3
+    eslint: ^9.39.0
+    stylelint: ^16.25.0
+  ui:
+    '@iconify-json/logos': ^1.2.10
+    '@iconify-json/ri': ^1.2.6
+    '@nuxt/icon': ^2.1.0
+    '@unocss/nuxt': ^66.5.4
+
+engineStrict: true
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+
+shamefullyHoist: true
